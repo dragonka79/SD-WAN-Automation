@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+*.secret
+secrets.yml
+vault-password.txt
+
+# Ansible
+*.retry
+.vault_pass
+
+# Runtime files
+*.log
+cookies.txt
+vmanage-cookies.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
