@@ -48,26 +48,36 @@ client = VManageClient(
 client.login()
 
 
-# Retrieve the devices currently known to vManage.
-devices = client.get_devices()
-
-
 # Directory for generated vManage API output.
 OUTPUT_DIR = Path(__file__).resolve().parents[2] / "output" / "vmanage"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-
-# Create a timestamped output filename.
+# Create a timestamp for this API collection run.
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-output_file = OUTPUT_DIR / f"devices_{timestamp}.json"
 
 
-# Save the device inventory as formatted JSON.
-with open(output_file, "w") as f:
+# Retrieve the controllers currently known to vManage.
+controllers = client.get_controllers()
+
+# Save controller information as formatted JSON.
+controllers_file = OUTPUT_DIR / f"controllers_{timestamp}.json"
+
+with open(controllers_file, "w") as f:
+    json.dump(controllers, f, indent=2)
+
+print(f"Controller information saved to {controllers_file}")
+
+
+# Retrieve the devices currently known to vManage.
+devices = client.get_devices()
+
+# Save device information as formatted JSON.
+devices_file = OUTPUT_DIR / f"devices_{timestamp}.json"
+
+with open(devices_file, "w") as f:
     json.dump(devices, f, indent=2)
 
-
-print(f"Device information saved to {output_file}")
+print(f"Device information saved to {devices_file}")
 
 
 # Display a compact summary of the devices.
@@ -76,3 +86,4 @@ if not devices:
 else:
     for device in devices:
         print(device)
+

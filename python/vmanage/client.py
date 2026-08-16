@@ -113,3 +113,18 @@ class VManageClient:
             )
 
         return data["data"]
+
+    def get_controllers(self):
+        # Retrieve the controllers known to vManage.
+        response = self.session.get(
+            f"{self.base_url}/dataservice/system/device/controllers",
+            verify=False
+        )
+
+        # Raise an exception if vManage returns an HTTP error.
+        response.raise_for_status()
+
+        # Return only the actual controller information.
+        return response.json()["data"]
+
+        

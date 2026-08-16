@@ -1,0 +1,39 @@
+[
+  {
+    "deviceType": "vmanage",
+    "serialNumber": "No certificate installed",
+    "uuid": "482b7bce-704c-4a11-a818-11c59740b90c",
+    "managementSystemIP": "0.0.0.0",
+    "chasisNumber": "482b7bce-704c-4a11-a818-11c59740b90c",
+    "configOperationMode": "cli",
+    "deviceModel": "vmanage",
+    "deviceState": "BRING_UP",
+    "validity": "invalid",
+    "platformFamily": "vmanage",
+    "username": "admin",
+    "rootCertHash": "39c8149298f6910529f7a1e973407dc9f22d84d1",
+    "CSR": "N/A",
+    "CSRDetail": "N/A",
+    "state": "N/A",
+    "valid": "N/A",
+    "requestTokenID": "N/A",
+    "expirationDate": "Not Applicable",
+    "expirationDateLong": -1,
+    "deviceIP": "localhost",
+    "activity": [
+      "Device added"
+    ],
+    "state_vedgeList": "Sync",
+    "certInstallStatus": "Not Installed",
+    "servicePersonality": "all",
+    "personality": "vmanage",
+    "expirationStatus": "invalid",
+    "lifeCycleRequired": false,
+    "hardwareCertSerialNumber": "NA",
+    "subjectSerialNumber": "NA",
+    "resourceGroup": "global",
+    "id": "NA",
+    "tags": [],
+    "draftMode": "Disabled"
+  }
+]
