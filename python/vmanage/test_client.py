@@ -16,6 +16,9 @@ from client import VManageClient
 from datetime import datetime
 from pathlib import Path
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # vManage uses a self-signed certificate in the lab.
 # SSL certificate verification is disabled, so suppress the resulting warning.
@@ -46,26 +49,25 @@ client.login()
 
 
 # Retrieve the devices currently known to vManage.
-data = client.get_devices()
-
 devices = client.get_devices()
+
 
 # Directory for generated vManage API output.
 OUTPUT_DIR = Path(__file__).resolve().parents[2] / "output" / "vmanage"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+
 # Create a timestamped output filename.
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 output_file = OUTPUT_DIR / f"devices_{timestamp}.json"
+
 
 # Save the device inventory as formatted JSON.
 with open(output_file, "w") as f:
     json.dump(devices, f, indent=2)
 
-print(f"Device information saved to {output_file}")
 
-# Extract the device inventory from the API response.
-devices = data["data"]
+print(f"Device information saved to {output_file}")
 
 
 # Display a compact summary of the devices.
@@ -73,10 +75,4 @@ if not devices:
     print("No devices registered in vManage.")
 else:
     for device in devices:
-        print(
-            f"{device.get('host-name', 'N/A'):20} "
-            f"{device.get('system-ip', 'N/A'):15} "
-            f"{device.get('device-model', 'N/A'):15} "
-            f"{device.get('reachability', 'N/A')}"
-        )
-
+        print(device)
