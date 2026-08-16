@@ -26,3 +26,5 @@ vmanage-cookies.txt
 # OS
 .DS_Store
 
+#Cert
+pki/

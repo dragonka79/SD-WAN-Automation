@@ -1,0 +1,43 @@
+[
+  {
+    "deviceId": "10.0.200.10",
+    "system-ip": "10.0.200.10",
+    "host-name": "vmanage",
+    "reachability": "reachable",
+    "status": "normal",
+    "personality": "vmanage",
+    "device-type": "vmanage",
+    "timezone": "UTC",
+    "device-groups": [
+      "No groups"
+    ],
+    "lastupdated": 1786886470211,
+    "domain-id": "0",
+    "board-serial": "No certificate installed",
+    "certificate-validity": "Not Applicable",
+    "max-controllers": "0",
+    "uuid": "482b7bce-704c-4a11-a818-11c59740b90c",
+    "controlConnections": "0",
+    "device-model": "vmanage",
+    "version": "20.9.1",
+    "connectedVManages": [
+      "10.0.200.10"
+    ],
+    "site-id": "1",
+    "latitude": "37.666684",
+    "longitude": "-122.777023",
+    "isDeviceGeoData": false,
+    "platform": "x86_64",
+    "uptime-date": 1786861800000,
+    "statusOrder": 4,
+    "device-os": "next",
+    "validity": "valid",
+    "state": "green",
+    "state_description": "All daemons up",
+    "model_sku": "None",
+    "local-system-ip": "10.0.200.10",
+    "total_cpu_count": "4",
+    "testbed_mode": false,
+    "layoutLevel": 1
+  }
+]
