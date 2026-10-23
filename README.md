@@ -99,5 +99,7 @@ The long-term objective is to explore a network operations workflow in which **t
 
 ## Lab Architecture
 
-![Cisco SD-WAN lab topology](images/eve-ng-lab_sd-wan.png)
+The diagram shows the current EVE-NG lab, including the SD-WAN controllers, automation VM, WAN transports, and branch sites.
+
+![Cisco SD-WAN lab topology](images/sd-wan-topology.png)
 
