@@ -96,3 +96,8 @@ SD-WAN-Automation/
 This is an active research and learning project. Basic vManage API authentication, inventory retrieval, configuration collection, and SD-WAN overlay validation are working. Broader telemetry integration, AI-assisted analysis, and controlled remediation are development goals.
 
 The long-term objective is to explore a network operations workflow in which **telemetry provides context, topology provides relationships, AI assists with reasoning, and automation executes validated actions**.
+
+## Lab Architecture
+
+![Cisco SD-WAN lab topology](images/eve-ng-lab_sd-wan.png)
+
