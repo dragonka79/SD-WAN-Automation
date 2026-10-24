@@ -1,0 +1,20 @@
+{
+  "templateId": "292fe083-0c35-494a-9bfb-b9b4f0ab39e8",
+  "templateName": "Default_SDBranch_MGMT_INT_V01",
+  "templateDescription": "Management interface for Branch Cat8000v and ISRv - to Manage downstream FW",
+  "templateType": "cisco_vpn_interface",
+  "deviceType": [
+    "vedge-C8000V",
+    "vedge-ISRv"
+  ],
+  "lastUpdatedBy": "system",
+  "lastUpdatedOn": 1786804100628,
+  "factoryDefault": true,
+  "devicesAttached": 0,
+  "attachedMastersCount": 2,
+  "templateMinVersion": "15.0.0",
+  "configType": "xml",
+  "createdBy": "system",
+  "createdOn": 1786804100628,
+  "resourceGroup": "global"
+}

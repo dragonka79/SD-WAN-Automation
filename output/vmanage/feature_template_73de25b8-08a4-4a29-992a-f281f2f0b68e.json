@@ -1,0 +1,20 @@
+{
+  "templateId": "73de25b8-08a4-4a29-992a-f281f2f0b68e",
+  "templateName": "Default_SDBranch_INTERNAL_MGMT_INT_V01",
+  "templateDescription": "Internal Management Interface of C8000V and ISRv - To allow management by NFVIS",
+  "templateType": "cisco_vpn_interface",
+  "deviceType": [
+    "vedge-C8000V",
+    "vedge-ISRv"
+  ],
+  "lastUpdatedBy": "system",
+  "lastUpdatedOn": 1786804050984,
+  "factoryDefault": true,
+  "devicesAttached": 0,
+  "attachedMastersCount": 2,
+  "templateMinVersion": "15.0.0",
+  "configType": "xml",
+  "createdBy": "system",
+  "createdOn": 1786804050984,
+  "resourceGroup": "global"
+}

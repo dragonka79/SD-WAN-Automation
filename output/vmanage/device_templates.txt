@@ -14,4 +14,5 @@ Name: Factory_Default_C1111_8PLTELA_V01 | ID: 6e9d2571-d7c3-4169-a2b6-bce5d63b6d
 Name: Factory_Default_C8000V_V01 | ID: 04192977-b568-45ab-aad4-8b35b72d29e2 | Type: vedge-C8000V | Attached devices: 0
 Name: Factory_Default_DC1_HUB | ID: e5561240-576d-4f12-989b-87104716b1cb | Type: vedge-C8000V | Attached devices: 0
 Name: Factory_Default_ISR_4331_V01 | ID: 690af852-2ba6-400a-917d-232c585a1382 | Type: vedge-ISR-4331 | Attached devices: 0
+Name: SD_Branch_C8000V_Lab_V01 | ID: 9e82867d-2530-4dee-9c37-6487b0163742 | Type: vedge-C8000V | Attached devices: 0
 Name: cEdgeCSR4_device_template | ID: 7ba6da10-bae7-4a10-acbf-cf31e2b79d69 | Type: vedge-CSR-1000v | Attached devices: 0

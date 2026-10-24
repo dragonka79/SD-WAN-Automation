@@ -1,0 +1,20 @@
+{
+  "templateId": "98b74a6f-0b52-47a2-8a02-8fa9042396ae",
+  "templateName": "Default_SDBranch_INET_INT_V01",
+  "templateDescription": "Internet Interface Template for Branch Cat8000v and ISRv routers",
+  "templateType": "cisco_vpn_interface",
+  "deviceType": [
+    "vedge-C8000V",
+    "vedge-ISRv"
+  ],
+  "lastUpdatedBy": "system",
+  "lastUpdatedOn": 1786804046526,
+  "factoryDefault": true,
+  "devicesAttached": 0,
+  "attachedMastersCount": 2,
+  "templateMinVersion": "15.0.0",
+  "configType": "xml",
+  "createdBy": "system",
+  "createdOn": 1786804046526,
+  "resourceGroup": "global"
+}
