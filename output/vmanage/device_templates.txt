@@ -1,0 +1,17 @@
+Name: Default_AWS_TGW_C8000V_Template_V01 | ID: bee9006d-40b5-4915-9447-ed8080bc054e | Type: vedge-C8000V | Attached devices: 0
+Name: Default_AWS_TGW_CSR1000V_Template_V01 | ID: 0c1cf678-4d4e-407d-b2e0-634a8478dfc0 | Type: vedge-CSR-1000v | Attached devices: 0
+Name: Default_Azure_vWAN_C8000V_Template_V01 | ID: d8e00595-7007-46bb-9d29-acd23e9af1de | Type: vedge-C8000V | Attached devices: 0
+Name: Default_BOOTSTRAP_DHCP_8000V_Template_V01 | ID: c3e738f6-e68e-4aa8-bb5b-ab6e7515254f | Type: vedge-C8000V | Attached devices: 0
+Name: Default_BOOTSTRAP_STATIC_8000V_Template_V01 | ID: d2ee4e15-0403-4e54-9156-716bc29bdb3a | Type: vedge-C8000V | Attached devices: 0
+Name: Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02 | ID: 2b9664f7-14b6-48a4-a09e-21bf4e1a5068 | Type: vedge-CSR-1000v | Attached devices: 0
+Name: Default_GCP_C8000V_Template_V01 | ID: dacabcec-76c0-4bff-9668-21d5334db8f0 | Type: vedge-C8000V | Attached devices: 0
+Name: Default_MEGAPORT_ICGW_C8000V_Template_V01 | ID: eefffe58-4e6e-4a60-b6b2-f0eecd217252 | Type: vedge-C8000V | Attached devices: 0
+Name: Default_SDBranch_C8000V_Template_V01 | ID: 4fabafe3-243d-4160-ac3a-57a1d54c360b | Type: vedge-C8000V | Attached devices: 0
+Name: Default_SDBranch_ISRv_Template_V01 | ID: cd3f6137-e044-45e2-b992-4c130aca2fc3 | Type: vedge-ISRv | Attached devices: 0
+Name: Default_SDBranch_vEdge_cloud_Template_V01 | ID: f532fa59-78a7-4e5e-803a-6602e8d6782d | Type: vedge-cloud | Attached devices: 0
+Name: Factory_Default_1_TLOC_Branch_Template | ID: dcf571f8-472f-4d2b-9dd3-0ecc919f92d0 | Type: vedge-C8000V | Attached devices: 0
+Name: Factory_Default_C1111_8PLTELA_V01 | ID: 6e9d2571-d7c3-4169-a2b6-bce5d63b6dac | Type: vedge-C1111-8PLTELA | Attached devices: 0
+Name: Factory_Default_C8000V_V01 | ID: 04192977-b568-45ab-aad4-8b35b72d29e2 | Type: vedge-C8000V | Attached devices: 0
+Name: Factory_Default_DC1_HUB | ID: e5561240-576d-4f12-989b-87104716b1cb | Type: vedge-C8000V | Attached devices: 0
+Name: Factory_Default_ISR_4331_V01 | ID: 690af852-2ba6-400a-917d-232c585a1382 | Type: vedge-ISR-4331 | Attached devices: 0
+Name: cEdgeCSR4_device_template | ID: 7ba6da10-bae7-4a10-acbf-cf31e2b79d69 | Type: vedge-CSR-1000v | Attached devices: 0
